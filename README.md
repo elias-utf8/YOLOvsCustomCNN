@@ -4,7 +4,9 @@
 <img align="right" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/media.gif" width="350px">
 
 The goal of this project was to conduct a supervised learning performance audit comparing YOLO and a custom CNN.
-<br><br><br><br><br><br><br><br><br>
+Dataset is available on [Kaggle](https://www.kaggle.com/datasets/mrpoulpe/cubes-and-cylinders/data).
+
+<br><br><br><br><br><br><br><br>
 
 ## Model architecture
 ```mermaid
@@ -42,6 +44,23 @@ Detected objects are located in 3D using an Intel RealSense depth camera and an 
 ## Software
 
 PyQt6 desktop app with three tabs: **Detection** (real-time inference), **Training** (model training), and **Calibration** (camera calibration via chessboard). All paths and parameters are configured in `config.ini`.
+
+## Comparisons
+
+### IoU and confusion matrix
+
+| Model | Results |
+|:-----:|:-------:|
+| **Custom CNN** | <img width="800" alt="Custom CNN results" src="https://github.com/user-attachments/assets/5e5f703c-58b6-4d0b-b5f7-5bc4409369da" /> |
+| **YOLO** | <img width="800" alt="YOLO results" src="https://github.com/user-attachments/assets/ef51d0b1-0a91-43b8-abeb-8ef839cdd7d5" /> |
+
+### Classification
+
+| Model | Results |
+|:-----:|:-------:|
+| **Custom CNN** | <img width="1372" height="388" alt="image" src="https://github.com/user-attachments/assets/d9a474b8-f530-4e84-8bd0-1d3088df2718"/> |
+| **YOLO** | <img width="1360" height="345" alt="image" src="https://github.com/user-attachments/assets/f32046cf-1af6-4cf6-9052-58b3ebcaae75" /> |
+
 
 ## Run
 
