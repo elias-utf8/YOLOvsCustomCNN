@@ -56,15 +56,15 @@ The two main modules are ModelManager, which enables efficient management of mod
 
 | Model | Results |
 |:-----:|:-------:|
-| **Custom CNN** | <img width="800" alt="Custom CNN results" src="https://github.com/user-attachments/assets/5e5f703c-58b6-4d0b-b5f7-5bc4409369da" /> |
-| **YOLO** | <img width="800" alt="YOLO results" src="https://github.com/user-attachments/assets/ef51d0b1-0a91-43b8-abeb-8ef839cdd7d5" /> |
+| **Custom CNN** | <img width="800" alt="Custom CNN results" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/iou_custom.png"/> |
+| **YOLO** | <img width="800" alt="YOLO results" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/iou_yolo.png"/> |
 
 ### Classification
 
 | Model | Results |
 |:-----:|:-------:|
-| **Custom CNN** | <img width="1372" height="388" alt="image" src="https://github.com/user-attachments/assets/d9a474b8-f530-4e84-8bd0-1d3088df2718"/> |
-| **YOLO** | <img width="1360" height="345" alt="image" src="https://github.com/user-attachments/assets/f32046cf-1af6-4cf6-9052-58b3ebcaae75" /> |
+| **Custom CNN** | <img width="1372" height="388" alt="image" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/class_custom.png"/> |
+| **YOLO** | <img width="1360" height="345" alt="image" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/class_yolo.png"/> |
 
 
 ## Run
