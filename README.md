@@ -1,12 +1,14 @@
 [![Kaggle](https://img.shields.io/badge/Kaggle-035a7d?logo=kaggle&logoColor=white)](https://www.kaggle.com/datasets/mrpoulpe/cubes-and-cylinders)
 
 ## YOLOvsCustomCNN
-<img align="right" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/media.gif" width="350px">
+<img align="right" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/media.gif" width="375px">
 
 The goal of this project was to conduct a supervised learning performance audit comparing YOLO and a custom CNN.
+In order to benefit from 3D localisation of elements,  it is necessary to have a RealSense camera.
+
 Dataset is available on [Kaggle](https://www.kaggle.com/datasets/mrpoulpe/cubes-and-cylinders/data).
 
-<br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
 
 ## Model architecture
 ```mermaid
@@ -79,6 +81,6 @@ uv run python app.py
 - [Label Studio](https://labelstud.io/guide/)
 
 ## Contributors 
-- Mathieu Jay (CNN development)
-- Anh Tin Nguyen (3D localisation)
-- Elias Gauthier (Software architecture & GUI)
+- [Mathieu Jay](https://github.com/Arkww) (CNN development)
+- [Anh Tin Nguyen](https://github.com/atnguyen14) (3D localisation)
+- [Elias Gauthier](https://github.com/elias-utf8) (Software architecture & GUI)
