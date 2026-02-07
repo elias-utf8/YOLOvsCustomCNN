@@ -1,0 +1,5 @@
+Focale: fx=612.90, fy=612.99 pixels
+Centre optique: cx=308.81, cy=246.08 pixels
+Distorsion radiale: k1=0.008122, k2=0.814210, k3=-3.148215
+Distorsion tangentielle: p1=0.000027, p2=-0.000095
+Erreur RMS: 0.2993 pixels

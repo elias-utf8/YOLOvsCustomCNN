@@ -1,0 +1,8 @@
+path: /home/elias/IUT/sae-s5.a.01-7_audit-application/data/dataset
+train: images/train
+val: images/val
+test: images/test
+nc: 2
+names:
+- Cube
+- Cylindre
