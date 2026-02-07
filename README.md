@@ -52,14 +52,6 @@ uv sync
 uv run python app.py
 ```
 
-Training:
-```bash
-uv run python src/yolo/yolo_train.py    # YOLO
-uv run python src/cnn/train.py          # CNN
-```
-
-> Without a RealSense camera, set `DEBUG = True` in `config.ini`.
-
 ## Resources
 
 - [Documentation YOLOv11](https://docs.ultralytics.com/models/yolo11/)
