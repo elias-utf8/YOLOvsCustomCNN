@@ -1,5 +1,8 @@
 ## YOLOvsCustomCNN
+<img align="right" src="https://github.com/elias-utf8/YOLOvsCustomCNN/blob/main/assets/media.gif" width="350px">
+
 The goal of this project was to conduct a supervised learning performance audit comparing YOLO and a custom CNN.
+<br><br><br><br><br><br><br><br><br>
 
 ## Model architecture
 ```mermaid
