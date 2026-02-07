@@ -47,6 +47,9 @@ Detected objects are located in 3D using an Intel RealSense depth camera and an 
 
 PyQt6 desktop app with three tabs: **Detection** (real-time inference), **Training** (model training), and **Calibration** (camera calibration via chessboard). All paths and parameters are configured in `config.ini`.
 
+The two main modules are ModelManager, which enables efficient management of model inference, and RealSense, which enables acquisition of the various camera streams via an optimised pipeline.
+
+
 ## Comparisons
 
 ### IoU and confusion matrix
