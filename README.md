@@ -37,7 +37,28 @@ graph TD
 
 ## 3D localisation
 
+Detected objects are located in 3D using an Intel RealSense depth camera and an ArUco marker as world reference. The bounding box center is deprojected to 3D camera coordinates, then transformed to world coordinates via `solvePnP`.
+
 ## Software
+
+PyQt6 desktop app with three tabs: **Detection** (real-time inference), **Training** (model training), and **Calibration** (camera calibration via chessboard). All paths and parameters are configured in `config.ini`.
+
+## Run
+
+```bash
+git clone https://github.com/elias-utf8/YOLOvsCustomCNN.git
+cd YOLOvsCustomCNN
+uv sync
+uv run python app.py
+```
+
+Training:
+```bash
+uv run python src/yolo/yolo_train.py    # YOLO
+uv run python src/cnn/train.py          # CNN
+```
+
+> Without a RealSense camera, set `DEBUG = True` in `config.ini`.
 
 ## Resources
 
