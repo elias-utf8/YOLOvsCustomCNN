@@ -84,6 +84,6 @@ uv run python app.py
 - [Label Studio](https://labelstud.io/guide/)
 
 ## Contributors 
-- [Mathieu Jay](https://github.com/Arkww) (CNN development)
+- [Mathieu Jay](https://github.com/Arkww) (CNN conception and development)
 - [Anh Tin Nguyen](https://github.com/atnguyen14) (3D localisation)
 - [Elias Gauthier](https://github.com/elias-utf8) (Software architecture & GUI)
