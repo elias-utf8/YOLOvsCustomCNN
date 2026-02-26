@@ -85,5 +85,5 @@ uv run python app.py
 
 ## Contributors 
 - [Mathieu Jay](https://github.com/Arkww) (CNN conception and development)
-- [Anh Tin Nguyen](https://github.com/atnguyen14) (3D localisation)
+- [Anh Tin Nguyen](https://github.com/atnguyen14) (Object's 3D localisation)
 - [Elias Gauthier](https://github.com/elias-utf8) (Software architecture & GUI)
